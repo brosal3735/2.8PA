@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    Assignment Name: Unit 2 Graded Exercise 3
+    Author: Broc Salvati
+    Date: September 13, 2025
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 2 Graded Exercise 3</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+        h1, p {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin: 50px auto;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>brosal3735, Debugging Exercise</h1>
+
+        <p>The area of a rectangle is found by multiplying the length by the width:</p>
+        <p>area = length * width</p>
+
+        <br>
+
+        <p>For a right triangle, the area is 1/2 the length times the width:</p>
+        <p>area = (length * width)/2</p>
+
+        <br>
+
+        <p>Given these formulas, if we have a rectangle with a length of 5 and width of 10, the corresponding areas of the rectangle and the right triangle formed by the line that bisects the rectangle are:</p>
+
+        <script>
+            "use strict";
+            // This is the corrected script for the debugging exercise.
+
+            // Define the length and width as numbers.
+            let length = 10;
+            let width = 5;
+
+            // Calculate the area of the rectangle.
+            let rectangleArea = length * width;
+
+            // Calculate the area of the right triangle.
+            let triangleArea = (length * width) / 2;
+
+            // Display the results to the page.
+            document.write("<br>");
+            document.write("Rectangle Area is: " + rectangleArea + "<br>");
+            document.write("<br>");
+            document.write("Triangle Area is: " + triangleArea);
+        </script>
+    </div>
+</body>
+</html>
